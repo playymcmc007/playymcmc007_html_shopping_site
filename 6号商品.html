@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>XX购物网个屁</title>
+</head>
+<link rel="stylesheet" type="text/css" href="index.css" />
+<script language="javascript">
+function gouwu()
+{
+qo.setAttribute("class","div5");
+window.alert("我的任务完成啦！\n你倒下了。");
+var audio = new Audio('我的任务完成了.mp3');
+audio.play();
+button.setAttribute("value","取消购买");
+button.setAttribute("onClick","quxiao()");
+}
+function quxiao()
+{
+window.alert("为什么不喝，喝！喝啊！\n你起来了。");
+var audio = new Audio('为什么不喝.mp3');
+audio.play();
+qo.setAttribute("class","");
+button.setAttribute("value","购买");
+button.setAttribute("onClick","gouwu()");
+}</script>
+<body>
+<div id="qo" class="">
+<h1 class="div1"><font color="red;" ><a href="主页.html">XX购物网</a></font></h1>
+<div class="div2">
+<table style="text-align:center;border:1;width:100%;">
+<tr>
+<td><a href="1号商品.html"><font color="#FFFF66">2233抱枕</font></a></td>
+<td><a href="2号商品.html"><font color="#FFFF66">高级面罩</font></a></td>
+<td><a href="3号商品.html"><font color="#FFFF66">核弹</font></a></td>
+<td><a href="更多商品.html"><font color="#FFFF66">更多商品</font></a></td>
+<td><a href="登录界面.html"><font color="#FFFF66">用户登录</font></a></td>
+</tr>
+</table>
+</div>
+<img style="float:left;" src="鸡汤.png"/>
+<p style="text-align:left;"><br>
+鸡汤</p>
+<p style="text-align:center;">
+<font size="+1">无毒鸡汤，放心饮用</font></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="text-align:left;">
+<font color="red" size="+1"><b>￥5555 穿山甲特供</b></font></p>
+<select name="number">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="TNND！">TNND</option>
+</select>
+<input id="button" type="button" value="购买" onClick="gouwu()"> 
+</div>
+</body>
+</html>
