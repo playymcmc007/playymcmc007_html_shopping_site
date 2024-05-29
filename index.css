@@ -1,0 +1,21 @@
+.div1{
+margin:0 auto;
+background: darkcyan;
+width:auto;
+height:200px;
+text-align:center;
+line-height:200px;
+}
+.div2{
+background-color:#0066CC;
+margin-left:auto;
+text-align:center;
+border-collapse:collapse;
+width:100%;
+text-align:center;
+}
+.div3{
+background-color:#00CC99;
+background-position:bottom;
+text-align:center;
+}
