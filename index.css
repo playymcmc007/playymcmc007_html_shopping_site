@@ -19,3 +19,32 @@ background-color:#00CC99;
 background-position:bottom;
 text-align:center;
 }
+.div4{
+animation:round 2s linear infinite;
+vertical-align:middle;
+float:left;
+height:25%;
+width:25%;
+position:relative;
+top:20px;
+left:5px;
+}
+@keyframes round{
+0%{
+transform:rotate(0deg);
+}
+100%{
+transform:rotate(360deg);
+}
+}
+.div5{
+transform:rotate(90deg);
+width:40%;
+position:relative;
+left:500px;
+}
+.div6{
+width:1px;
+position:relative;
+left:50%;
+}
